@@ -1,0 +1,42 @@
+<div style="height: 100%;display: flex;background-color: #0e0e0e;justify-content: center;align-items: center;">
+<div style="background-color: #aa74f0;display: flex;justify-content: center;padding: 20px;">
+  <div style="display: flex !important;background-color:#ffffff;justify-content: center;padding: 30px;">
+    <mat-card style="width: 40%;padding: 20px;">
+
+      <mat-card-header style="display: flex;flex-direction: column;">
+        <mat-label><h2>Login</h2></mat-label>
+        <mat-label>Dosen't have account yet? <a href="signup">Sign Up</a></mat-label>
+      </mat-card-header>
+      <mat-card-content>
+        <form [formGroup]="formLogin" (ngSubmit)="onSubmit()" style="display: flex;flex-direction: column;">
+          <mat-form-field>
+            <mat-label>Email Address</mat-label>
+            <span matPrefix><mat-icon>email</mat-icon> &nbsp;</span>
+            <input type="text" matInput formControlName="email" placeholder="you@examplae.com">
+          </mat-form-field>
+          <a href="forgotpassword" style="text-align: end;">Forgot Password</a>
+          <mat-form-field>
+              <mat-label>Password</mat-label>
+              <span matPrefix><mat-icon>lock</mat-icon>&nbsp;</span>
+              <input matInput formControlName="password" type="password" />
+          </mat-form-field>
+
+            <mat-checkbox formControlName="rememberMe">Remember me</mat-checkbox>
+
+            <button type="submit" mat-raised-button color="primary">Login</button>
+        </form>
+      </mat-card-content>
+      <mat-card-actions style="display: flex;flex-direction: column;" >
+        <span style="text-align: center;">Or login with</span>
+        <mat-divider style="position: inherit;margin: 10px;"></mat-divider>
+        <div style="display: flex;">
+        <button mat-raised-button color="primary">Google<mat-icon>gmail</mat-icon></button>
+        <button mat-raised-button color="primary">Facebook<mat-icon>facebook</mat-icon></button>
+      </div>
+      </mat-card-actions>
+    </mat-card>
+
+    <img src="../../assets/3-Login-Page-Screen.jpg" style="width: 60%;" />
+  </div>
+</div>
+</div>

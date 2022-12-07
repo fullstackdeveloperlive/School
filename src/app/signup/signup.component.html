@@ -1,0 +1,44 @@
+<div style="display: flex;justify-content: center;align-items: center;height: 100%; background-color: #0e0e0e;">
+  <div style="background-color: #aa74f0;padding: 20px;">
+  <mat-card>
+    <mat-card-header style="display: flex;flex-direction: column;">
+      <h1 style="text-align: center;">Register</h1>
+      <p>Create your account. It's free and only take a minutes</p>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="singupFrom" style="display: flex;flex-direction: column;">
+          <mat-form-field>
+            <mat-label>First name</mat-label>
+            <span matPrefix><mat-icon>account_circle</mat-icon>&nbsp;</span>
+            <input formControlName="firstName" matInput placeholder="Enter first name"/>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Last name</mat-label>
+            <span matPrefix><mat-icon>account_circle</mat-icon></span>
+            <input formControlName="lastName" matInput/>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Email</mat-label>
+            <span matPrefix><mat-icon>email</mat-icon>&nbsp;</span>
+            <input formControlName="email" matInput>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Password</mat-label>
+            <span matPrefix><mat-icon>lock</mat-icon></span>
+            <input formControlName="password" matInput type="password">
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Conform Password</mat-label>
+            <span matPrefix><mat-icon>lock</mat-icon></span>
+            <input formControlName="conformPassword" matInput type="password">
+          </mat-form-field>
+          <mat-checkbox>I accept the <a href="#">Terms of  use</a> & <a href="#">privacy policy</a></mat-checkbox>
+          <button mat-raised-button color="primary"> Register Now</button>
+      </form>
+    </mat-card-content>
+    <mat-card-actions>
+      Already have account?<a href="login">Login</a>
+    </mat-card-actions>
+  </mat-card>
+</div>
+</div>
