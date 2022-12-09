@@ -4,6 +4,7 @@ import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.compone
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { LogoutComponent } from './logout/logout.component';
+import { RNDComponent } from './rnd/rnd.component';
 import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {component:SignupComponent,path:"signup"},
   {component:ForgotpasswordComponent,path:"forgotpassword"},
   {component:HomeComponent,path:"home"},
-  {component:LogoutComponent,path:"logout"}
+  {component:LogoutComponent,path:"logout"},
+  {component:RNDComponent,path:'rnd'}
 ];
 
 @NgModule({

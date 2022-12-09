@@ -17,6 +17,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
+import { RNDComponent } from './rnd/rnd.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import {MatDividerModule} from '@angular/material/divider';
     SignupComponent,
     ForgotpasswordComponent,
     HomeComponent,
-    LogoutComponent
+    LogoutComponent,
+    RNDComponent
   ],
   imports: [
     BrowserModule,

@@ -12,6 +12,7 @@ export class LoginComponent implements OnInit {
     password: new FormControl(""),
     rememberMe:new FormControl("")
   });
+
   constructor(private formBuilder:FormBuilder) {
 
    }
