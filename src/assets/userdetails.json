@@ -1,0 +1,26 @@
+[
+	{
+	"firstName":"Datta",
+	"lastName":"Jadhav",
+	"email":"dj@gmail.com",
+	"password":"12345",
+	"conformPassword":"12345"
+	},
+	{
+	"firstName":"Gaurave",
+	"lastName":"Khutale",
+	"email":"gk@gmail.com",
+	"password":"12345",
+	"conformPassword":"12345"
+	},
+	{
+	"firstName":"Avi",
+	"lastName":"Jadhav",
+	"email":"aj@gmail.com",
+	"password":"12345",
+	"conformPassword":"12345"
+	}
+]
+
+
+
