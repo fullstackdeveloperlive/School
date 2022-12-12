@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row style="display: flex;justify-content: space-between;">
+    <div style="width: 40%;display:flex;justify-content: space-between;">
+        <button mat-icon-button><mat-icon>menu</mat-icon></button>
+        <button mat-raised-button [routerLink]="['/home/admission']">Admission</button>
+        <button mat-raised-button [routerLink]="['/home/exam']">Exam</button>
+        <button mat-raised-button [routerLink]="['/home/labrory']">Labrory</button>
+        <button mat-raised-button [routerLink]="['/home/admin']">Admin</button>
+    </div>
+    <div>
+        <form style="display: inline;">
+            <mat-form-field>
+                <input type="text" placeholder="Type her to search" matInput>
+                <span matSuffix><mat-icon>search</mat-icon></span>
+           </mat-form-field>
+        </form>
+        <button mat-raised-button>Logout</button>
+    </div>
+    </mat-toolbar-row>
+</mat-toolbar>

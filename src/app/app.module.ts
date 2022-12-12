@@ -19,6 +19,20 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import { RNDComponent } from './rnd/rnd.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './header/header.component';
+import { LeftPannelComponent } from './left-pannel/left-pannel.component';
+import { BodyComponent } from './body/body.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { FooterComponent } from './footer/footer.component';
+import { AdmissionMenuComponent } from './admission-menu/admission-menu.component';
+import { ExamMenuComponent } from './exam-menu/exam-menu.component';
+import { AdmissionComponent } from './admission/admission.component';
+import { ExamComponent } from './exam/exam.component';
+import { LabroryMenuComponent } from './labrory-menu/labrory-menu.component';
+import { LabroryComponent } from './labrory/labrory.component';
+import { AdminComponent } from './admin/admin.component';
+import { AdminMenuComponent } from './admin-menu/admin-menu.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +41,19 @@ import { HttpClientModule } from '@angular/common/http';
     ForgotpasswordComponent,
     HomeComponent,
     LogoutComponent,
-    RNDComponent
+    RNDComponent,
+    HeaderComponent,
+    LeftPannelComponent,
+    BodyComponent,
+    FooterComponent,
+    AdmissionMenuComponent,
+    ExamMenuComponent,
+    AdmissionComponent,
+    ExamComponent,
+    LabroryMenuComponent,
+    LabroryComponent,
+    AdminComponent,
+    AdminMenuComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +68,9 @@ import { HttpClientModule } from '@angular/common/http';
     MatCheckboxModule,
     MatButtonModule,
     MatDividerModule,
-    HttpClientModule
+    HttpClientModule,
+    MatToolbarModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
