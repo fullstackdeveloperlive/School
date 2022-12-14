@@ -57,7 +57,7 @@ export class LoginComponent implements OnInit {
         for(let i=0;i<userDetails.length;i++){
           if(this.formLogin.value.email==userDetails[i].email && this.formLogin.value.password==userDetails[i].password){
             this.loginStatus=false;
-            this.router.navigate(["home"]);
+            this.router.navigate(["home/landingpage"]);
            }else{
             this.loginStatus=true;
            }

@@ -33,6 +33,20 @@ import { LabroryMenuComponent } from './labrory-menu/labrory-menu.component';
 import { LabroryComponent } from './labrory/labrory.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminMenuComponent } from './admin-menu/admin-menu.component';
+import { AdmissionformComponent } from './admission/admissionform/admissionform.component';
+import { OptionformComponent } from './admission/optionform/optionform.component';
+import { AdmissionpayComponent } from './admission/admissionpay/admissionpay.component';
+import { AllexamComponent } from './exam/allexam/allexam.component';
+import { StartexamComponent } from './exam/startexam/startexam.component';
+import { AllbookComponent } from './library/allbook/allbook.component';
+import { AllocatedbookComponent } from './library/allocatedbook/allocatedbook.component';
+import { IdcardComponent } from './library/idcard/idcard.component';
+import { StaffmanagementComponent } from './admin/staffmanagement/staffmanagement.component';
+import { LeaveapplicationComponent } from './admin/leaveapplication/leaveapplication.component';
+import { ExamscheduleComponent } from './admin/examschedule/examschedule.component';
+import { EventscheduleComponent } from './admin/eventschedule/eventschedule.component';
+import { DivisionmanagmentComponent } from './admin/divisionmanagment/divisionmanagment.component';
+import { LadndingpageComponent } from './ladndingpage/ladndingpage.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,7 +67,21 @@ import { AdminMenuComponent } from './admin-menu/admin-menu.component';
     LabroryMenuComponent,
     LabroryComponent,
     AdminComponent,
-    AdminMenuComponent
+    AdminMenuComponent,
+    AdmissionformComponent,
+    OptionformComponent,
+    AdmissionpayComponent,
+    AllexamComponent,
+    StartexamComponent,
+    AllbookComponent,
+    AllocatedbookComponent,
+    IdcardComponent,
+    StaffmanagementComponent,
+    LeaveapplicationComponent,
+    ExamscheduleComponent,
+    EventscheduleComponent,
+    DivisionmanagmentComponent,
+    LadndingpageComponent
   ],
   imports: [
     BrowserModule,
