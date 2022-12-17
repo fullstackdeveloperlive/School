@@ -1,1 +1,70 @@
-<p>admissionform works!</p>
+<div>
+    <form style="display: flex;flex-direction: column;align-items: center;">
+        <table style="border: 1px solid red;">
+            <tbody>
+                <tr>
+                    <td><span>Full Name</span></td>
+                    <td> <input></td>
+                </tr>
+                <tr>
+                    <td> <span>Standard</span></td>
+                    <td><select>
+                        <option>1 Std</option>
+                        <option>2 Std</option>
+                        <option>3 Std</option>
+                        <option>BE</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td> <span>Address</span></td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td><span>Gender</span></td>
+                    <td>
+                        <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1">Male</mat-radio-button>
+                            <mat-radio-button value="2">Female</mat-radio-button>
+                        </mat-radio-group>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>DOB</span></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><span>Email</span></td>
+                    <td><input placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                    <td><span>Contact Number</span></td>
+                    <td><input type="number" placeholder="Enter your contact detail"></td>
+                </tr>
+                <tr>
+                    <td><span>Adhar</span></td>
+                    <td><input type="number" placeholder="Enter your adhar number"></td>
+                </tr>
+                <tr>
+                    <td><span>Document Type</span></td>
+                    <td>
+                        <select>
+                            <option>DOB Certificate</option>
+                            <option>Adhar</option>
+                            <option>Pan Card</option>
+                            <option>Domicile</option>
+                        </select>
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                   <td></td>
+                    <td><button>Submit Document</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button>Submit</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>

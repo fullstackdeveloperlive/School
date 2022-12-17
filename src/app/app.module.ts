@@ -47,6 +47,7 @@ import { ExamscheduleComponent } from './admin/examschedule/examschedule.compone
 import { EventscheduleComponent } from './admin/eventschedule/eventschedule.component';
 import { DivisionmanagmentComponent } from './admin/divisionmanagment/divisionmanagment.component';
 import { LadndingpageComponent } from './ladndingpage/ladndingpage.component';
+import {MatRadioModule} from '@angular/material/radio';
 @NgModule({
   declarations: [
     AppComponent,
@@ -98,7 +99,8 @@ import { LadndingpageComponent } from './ladndingpage/ladndingpage.component';
     MatDividerModule,
     HttpClientModule,
     MatToolbarModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
