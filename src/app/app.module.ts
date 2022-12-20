@@ -48,6 +48,7 @@ import { EventscheduleComponent } from './admin/eventschedule/eventschedule.comp
 import { DivisionmanagmentComponent } from './admin/divisionmanagment/divisionmanagment.component';
 import { LadndingpageComponent } from './ladndingpage/ladndingpage.component';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
 @NgModule({
   declarations: [
     AppComponent,
@@ -100,7 +101,8 @@ import {MatRadioModule} from '@angular/material/radio';
     HttpClientModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatRadioModule
+    MatRadioModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
