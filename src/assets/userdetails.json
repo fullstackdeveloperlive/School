@@ -19,7 +19,14 @@
 	"email":"aj@gmail.com",
 	"password":"12345",
 	"conformPassword":"12345"
-	}
+	},
+  {
+    "firstName":"rutu",
+    "lastName":"Jadhav",
+    "email":"rj@gmail.com",
+    "password":"12345",
+    "conformPassword":"12345"
+    }
 ]
 
 
