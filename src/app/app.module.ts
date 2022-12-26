@@ -17,6 +17,38 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
+import { RNDComponent } from './rnd/rnd.component';
+import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './header/header.component';
+import { LeftPannelComponent } from './left-pannel/left-pannel.component';
+import { BodyComponent } from './body/body.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { FooterComponent } from './footer/footer.component';
+import { AdmissionMenuComponent } from './admission-menu/admission-menu.component';
+import { ExamMenuComponent } from './exam-menu/exam-menu.component';
+import { AdmissionComponent } from './admission/admission.component';
+import { ExamComponent } from './exam/exam.component';
+import { LabroryMenuComponent } from './labrory-menu/labrory-menu.component';
+import { LabroryComponent } from './labrory/labrory.component';
+import { AdminComponent } from './admin/admin.component';
+import { AdminMenuComponent } from './admin-menu/admin-menu.component';
+import { AdmissionformComponent } from './admission/admissionform/admissionform.component';
+import { OptionformComponent } from './admission/optionform/optionform.component';
+import { AdmissionpayComponent } from './admission/admissionpay/admissionpay.component';
+import { AllexamComponent } from './exam/allexam/allexam.component';
+import { StartexamComponent } from './exam/startexam/startexam.component';
+import { AllbookComponent } from './library/allbook/allbook.component';
+import { AllocatedbookComponent } from './library/allocatedbook/allocatedbook.component';
+import { IdcardComponent } from './library/idcard/idcard.component';
+import { StaffmanagementComponent } from './admin/staffmanagement/staffmanagement.component';
+import { LeaveapplicationComponent } from './admin/leaveapplication/leaveapplication.component';
+import { ExamscheduleComponent } from './admin/examschedule/examschedule.component';
+import { EventscheduleComponent } from './admin/eventschedule/eventschedule.component';
+import { DivisionmanagmentComponent } from './admin/divisionmanagment/divisionmanagment.component';
+import { LadndingpageComponent } from './ladndingpage/ladndingpage.component';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +56,34 @@ import {MatDividerModule} from '@angular/material/divider';
     SignupComponent,
     ForgotpasswordComponent,
     HomeComponent,
-    LogoutComponent
+    LogoutComponent,
+    RNDComponent,
+    HeaderComponent,
+    LeftPannelComponent,
+    BodyComponent,
+    FooterComponent,
+    AdmissionMenuComponent,
+    ExamMenuComponent,
+    AdmissionComponent,
+    ExamComponent,
+    LabroryMenuComponent,
+    LabroryComponent,
+    AdminComponent,
+    AdminMenuComponent,
+    AdmissionformComponent,
+    OptionformComponent,
+    AdmissionpayComponent,
+    AllexamComponent,
+    StartexamComponent,
+    AllbookComponent,
+    AllocatedbookComponent,
+    IdcardComponent,
+    StaffmanagementComponent,
+    LeaveapplicationComponent,
+    ExamscheduleComponent,
+    EventscheduleComponent,
+    DivisionmanagmentComponent,
+    LadndingpageComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +97,12 @@ import {MatDividerModule} from '@angular/material/divider';
     MatInputModule,
     MatCheckboxModule,
     MatButtonModule,
-    MatDividerModule
+    MatDividerModule,
+    HttpClientModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatRadioModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
