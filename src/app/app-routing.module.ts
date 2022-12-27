@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddressComponent } from './address/address.component';
 import { AdminComponent } from './admin/admin.component';
 import { DivisionmanagmentComponent } from './admin/divisionmanagment/divisionmanagment.component';
 import { EventscheduleComponent } from './admin/eventschedule/eventschedule.component';
@@ -24,8 +25,11 @@ import { LoginComponent } from './login/login.component';
 import { LogoutComponent } from './logout/logout.component';
 import { RNDComponent } from './rnd/rnd.component';
 import { SignupComponent } from './signup/signup.component';
+import { StudentDashboardComponent } from './student-dashboard/student-dashboard.component';
 
 const routes: Routes = [
+  {component:AddressComponent,path:'address'},
+  {component:StudentDashboardComponent,path:'sd'},
   {component:LoginComponent,path:"login"},
   {component:SignupComponent,path:"signup"},
   {component:ForgotpasswordComponent,path:"forgotpassword"},

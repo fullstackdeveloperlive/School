@@ -49,6 +49,13 @@ import { DivisionmanagmentComponent } from './admin/divisionmanagment/divisionma
 import { LadndingpageComponent } from './ladndingpage/ladndingpage.component';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { AddressComponent } from './address/address.component';
+import { MatSelectModule } from '@angular/material/select';
+import { StudentDashboardComponent } from './student-dashboard/student-dashboard.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatMenuModule } from '@angular/material/menu';
+import { LayoutModule } from '@angular/cdk/layout';
+import { SpanElementDirective } from './span-element.directive';
 @NgModule({
   declarations: [
     AppComponent,
@@ -83,7 +90,10 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
     ExamscheduleComponent,
     EventscheduleComponent,
     DivisionmanagmentComponent,
-    LadndingpageComponent
+    LadndingpageComponent,
+    AddressComponent,
+    StudentDashboardComponent,
+    SpanElementDirective
   ],
   imports: [
     BrowserModule,
@@ -102,7 +112,11 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
     MatToolbarModule,
     MatSidenavModule,
     MatRadioModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatSelectModule,
+    MatGridListModule,
+    MatMenuModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
