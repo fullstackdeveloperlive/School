@@ -55,6 +55,7 @@ import { StudentDashboardComponent } from './student-dashboard/student-dashboard
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { LayoutModule } from '@angular/cdk/layout';
+import { SpanElementDirective } from './span-element.directive';
 @NgModule({
   declarations: [
     AppComponent,
@@ -91,7 +92,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     DivisionmanagmentComponent,
     LadndingpageComponent,
     AddressComponent,
-    StudentDashboardComponent
+    StudentDashboardComponent,
+    SpanElementDirective
   ],
   imports: [
     BrowserModule,
