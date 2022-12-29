@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./idcard.component.css']
 })
 export class IdcardComponent implements OnInit {
-
+  color:string="orange";
+  list:string[]=["A","B","C"];
+  abc:boolean=false;
   constructor() { }
 
   ngOnInit(): void {

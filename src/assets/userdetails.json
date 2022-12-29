@@ -20,6 +20,7 @@
 	"password":"12345",
 	"conformPassword":"12345"
 	},
+<<<<<<< HEAD
 	{
 		"firstName":"Lalesh",
 		"lastName":"Kokat",
@@ -27,6 +28,15 @@
 		"password":"123456",
 		"conformPassword":"123456"
 		}
+=======
+  {
+    "firstName":"rutu",
+    "lastName":"Jadhav",
+    "email":"rj@gmail.com",
+    "password":"12345",
+    "conformPassword":"12345"
+    }
+>>>>>>> refs/remotes/origin/rutuja_jadhav
 ]
 
 
