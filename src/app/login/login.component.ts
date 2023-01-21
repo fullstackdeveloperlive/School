@@ -51,17 +51,19 @@ export class LoginComponent implements OnInit {
        if(this.formLogin.invalid){
         return;
        }
-       let url="../../assets/userdetails.json";
-       this.htpp.get<UserDetails[]>(url).subscribe(userDetails=>{
-        console.log(userDetails);
-        for(let i=0;i<userDetails.length;i++){
-          if(this.formLogin.value.email==userDetails[i].email && this.formLogin.value.password==userDetails[i].password){
-            this.loginStatus=false;
-            this.router.navigate(["home/landingpage"]);
-           }else{
-            this.loginStatus=true;
-           }
-         }
+       let url="http://localhost:8085/ServletExample/userLogin";
+       this.htpp.post(url,
+        JSON.stringify({email:this.formLogin.value.email,
+        password:this.formLogin.value.password
+        })
+        ).subscribe(userDetails=>{
+
+         if(userDetails){
+              this.loginStatus=false;
+              this.router.navigate(["home/landingpage"]);
+             }else{
+              this.loginStatus=true;
+             }
        });
 
 

@@ -56,6 +56,9 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { LayoutModule } from '@angular/cdk/layout';
 import { SpanElementDirective } from './span-element.directive';
+import { ImgSlideComponent } from './img-slide/img-slide.component';
+import { LinechartComponent } from './linechart/linechart.component';
+import { PocHttpComponent } from './poc-http/poc-http.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -93,7 +96,10 @@ import { SpanElementDirective } from './span-element.directive';
     LadndingpageComponent,
     AddressComponent,
     StudentDashboardComponent,
-    SpanElementDirective
+    SpanElementDirective,
+    ImgSlideComponent,
+    LinechartComponent,
+    PocHttpComponent
   ],
   imports: [
     BrowserModule,
