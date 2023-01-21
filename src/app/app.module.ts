@@ -49,6 +49,7 @@ import { DivisionmanagmentComponent } from './admin/divisionmanagment/divisionma
 import { LadndingpageComponent } from './ladndingpage/ladndingpage.component';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
+<<<<<<< HEAD
 import { AddressComponent } from './address/address.component';
 import { MatSelectModule } from '@angular/material/select';
 import { StudentDashboardComponent } from './student-dashboard/student-dashboard.component';
@@ -56,6 +57,10 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { LayoutModule } from '@angular/cdk/layout';
 import { SpanElementDirective } from './span-element.directive';
+=======
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+>>>>>>> refs/remotes/origin/gaurav_khutale
 @NgModule({
   declarations: [
     AppComponent,
@@ -113,10 +118,15 @@ import { SpanElementDirective } from './span-element.directive';
     MatSidenavModule,
     MatRadioModule,
     MatAutocompleteModule,
+<<<<<<< HEAD
     MatSelectModule,
     MatGridListModule,
     MatMenuModule,
     LayoutModule
+=======
+    MatDatepickerModule,
+    MatNativeDateModule
+>>>>>>> refs/remotes/origin/gaurav_khutale
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,28 @@
-<p>leaveapplication works!</p>
+<form [formGroup]="leaveForm">
+
+<mat-label>Leave Type</mat-label>
+<select>
+    <option>Sick Leave</option>
+    <option>Planned Leave</option>
+    <option>Casual Leave</option>
+</select>
+
+<mat-form-field>
+<mat-label>Leave Descripton</mat-label>
+<textarea matinput formControlName ="leaveDescription"></textarea>
+</mat-form-field>
+
+<mat-label>Enter a date range</mat-label>
+  <mat-date-range-input [rangePicker]="picker">
+    <input matStartDate formControlName="start" placeholder="Start date">
+    <input matEndDate formControlName="end" placeholder="End date">
+  </mat-date-range-input>
+  <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-date-range-picker #picker></mat-date-range-picker>
+
+<mat-label>Approval Name</mat-label>
+<input readonly="true">
+ <button>Submit</button>
+</form>
+
