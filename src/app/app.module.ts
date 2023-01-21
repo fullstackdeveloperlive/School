@@ -57,10 +57,16 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { LayoutModule } from '@angular/cdk/layout';
 import { SpanElementDirective } from './span-element.directive';
+<<<<<<< HEAD
 =======
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 >>>>>>> refs/remotes/origin/gaurav_khutale
+=======
+import { ImgSlideComponent } from './img-slide/img-slide.component';
+import { LinechartComponent } from './linechart/linechart.component';
+import { PocHttpComponent } from './poc-http/poc-http.component';
+>>>>>>> refs/remotes/origin/rutuja_jadhav
 @NgModule({
   declarations: [
     AppComponent,
@@ -98,7 +104,10 @@ import { MatNativeDateModule } from '@angular/material/core';
     LadndingpageComponent,
     AddressComponent,
     StudentDashboardComponent,
-    SpanElementDirective
+    SpanElementDirective,
+    ImgSlideComponent,
+    LinechartComponent,
+    PocHttpComponent
   ],
   imports: [
     BrowserModule,

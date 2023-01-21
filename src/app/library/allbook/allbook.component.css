@@ -1,4 +1,8 @@
 div {
     display:flex;
     justify-content: space-between;
+    background-color:azure;
+}
+img{
+    width:80%;
 }

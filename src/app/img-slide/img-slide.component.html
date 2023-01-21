@@ -1,0 +1,9 @@
+
+<div style="display:flex ; justify-content: space-between;background-color:azure;">
+
+
+  <button  (click)="pre()">preimg</button>
+<img *ngFor="let arrimg of imgDisplayArray" style="padding: 2px; width: 20%;"  src="{{arrimg}}">
+
+<button (click)="next()">nextImg</button>
+</div>
